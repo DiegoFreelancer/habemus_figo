@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Habemus Figo - El lugar donde comes bien</title>
+    <title>Habemus Figo - date el gustito!</title>
 </head>
 <body>
 
-    <header>
+    <header id="#header">
         <h1>¡Bienvenidos a Habemus Figo!</h1>
         <nav>
             <ol>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Nuestros empleados</li>
-                <li><a href="#"></a>Acerca de nosotros</li>
-                <li><a href="#"></a>Contacto</li>
+                <li><a href="#foods">Menú de comidas</a></li>
+                <li><a href="#employeers">Nuestro equipo</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ol>
         </nav>
     </header>
 
     <main>
-        <section>
-
+        <section id="foods" class="comidas">
+            <h2>Nuestras comidas</h2>
+            <img src="img/foods/empanadas.jpg" alt="empanadas.jpg" width="300" height="300">
+            <img src="img/foods/pizzas-cebollas.jpg" alt="pizzas-con-cebollas.jpg" width="300" height="300">
+            <img src="img/foods/comida-1.jpg" alt="comida-1.jpg" width="300" height="300">
+            <img src="img/foods/comida-2.jpg" alt="comida-2.jpg" width="300" height="300">
+            <img src="img/foods/comida-3.jpg" alt="comida-3.jpg" width="300" height="300">
+            <img src="img/foods/comida-4.jpg" alt="comida-4.jpg" width="300" height="300">
         </section>
 
+
+        <section id="employeers" class="empleados">
+            <h2>Nuestro equipo</h2>
+            <img src="img/employeers/empleados-1.jpg" alt="empleados-1.jpg" width="500" height="300">
+            <img src="img/employeers/empleados-2.jpg" alt="empleados-2.jpg" width="500" height="300">
+        </section>
+
+        <section id="contact" class="contacto">
+            <form action="#" method="POST">Escribe tu nombre:
+                <label for="nombre">
+                    <input size="10" type="text" name="nombre" value="">
+                    <br>
+                    <input type="submit" value="Enviar">
+                </label>
+            </form>
+        </section>
     </main>
 
     <aside></aside>
