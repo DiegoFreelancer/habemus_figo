@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Habemus Figo - date el gustito!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -28,12 +29,14 @@
             <h2>Nuestras comidas</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed efficitur ligula, quis mattis tortor. Ut efficitur iaculis ipsum vitae sagittis. Vestibulum cursus dui sed massa hendrerit consequat. Duis congue pretium quam, non porttitor eros efficitur id. Aenean in sapien volutpat, tempus sapien eget, euismod magna. Vivamus dignissim diam non eros commodo scelerisque. Nullam viverra, sem sollicitudin mollis consectetur, mi orci facilisis elit, ac pellentesque arcu ante at lectus. Aenean pretium erat ac euismod consectetur. Phasellus suscipit tincidunt vehicula. Proin semper dignissim nisi, at blandit magna vehicula in. 
             </p>
-            <img src="img/foods/empanadas.jpg" alt="empanadas.jpg" width="300" height="300">
-            <img src="img/foods/pizzas-cebollas.jpg" alt="pizzas-con-cebollas.jpg" width="300" height="300">
-            <img src="img/foods/comida-1.jpg" alt="comida-1.jpg" width="300" height="300">
-            <img src="img/foods/comida-2.jpg" alt="comida-2.jpg" width="300" height="300">
-            <img src="img/foods/comida-3.jpg" alt="comida-3.jpg" width="300" height="300">
-            <img src="img/foods/comida-4.jpg" alt="comida-4.jpg" width="300" height="300">
+            <div class="imageContainer">
+                <img class="img-food" src="img/foods/empanadas.jpg" alt="empanadas.jpg" width="300" height="300">
+                <img class="img-food" src="img/foods/pizzas-cebollas.jpg" alt="pizzas-con-cebollas.jpg" width="300" height="300">
+                <img class="img-food" src="img/foods/comida-1.jpg" alt="comida-1.jpg" width="300" height="300">
+                <img class="img-food" src="img/foods/comida-2.jpg" alt="comida-2.jpg" width="300" height="300">
+                <img class="img-food" src="img/foods/comida-3.jpg" alt="comida-3.jpg" width="300" height="300">
+                <img class="img-food" src="img/foods/comida-4.jpg" alt="comida-4.jpg" width="300" height="300">
+            </div>
         </section>
         <!--Final sección comidas-->
 
@@ -44,7 +47,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed efficitur ligula, quis mattis tortor. Ut efficitur iaculis ipsum vitae sagittis. Vestibulum cursus dui sed massa hendrerit consequat. Duis congue pretium quam, non porttitor eros efficitur id. Aenean in sapien volutpat, tempus sapien eget, euismod magna. Vivamus dignissim diam non eros commodo scelerisque. Nullam viverra, sem sollicitudin mollis consectetur, mi orci facilisis elit, ac pellentesque arcu ante at lectus. Aenean pretium erat ac euismod consectetur. Phasellus suscipit tincidunt vehicula. Proin semper dignissim nisi, at blandit magna vehicula in. 
             </p>
             <!-- <img src="img/employeers/empleados-1.jpg" alt="empleados-1.jpg" width="500" height="300"> -->
-            <img src="img/employeers/empleados-2.jpg" alt="empleados-2.jpg" width="500" height="300">
+            <img class="img-employeers" src="img/employeers/empleados-2.jpg" alt="empleados-2.jpg" width="500" height="300">
         </section>
         <!--Final sección empleados-->
 
@@ -53,8 +56,8 @@
             <h2>Nuestros comienzos</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed efficitur ligula, quis mattis tortor. Ut efficitur iaculis ipsum vitae sagittis. Vestibulum cursus dui sed massa hendrerit consequat. Duis congue pretium quam, non porttitor eros efficitur id. Aenean in sapien volutpat, tempus sapien eget, euismod magna. Vivamus dignissim diam non eros commodo scelerisque. Nullam viverra, sem sollicitudin mollis consectetur, mi orci facilisis elit, ac pellentesque arcu ante at lectus. Aenean pretium erat ac euismod consectetur. Phasellus suscipit tincidunt vehicula. Proin semper dignissim nisi, at blandit magna vehicula in. 
             </p>
-            <img src="img/local/comienzos-1.jpg" alt="comienzos-1.jpg" width="500" height="500">
-            <img src="img/local/comienzos-3.jpg" alt="comienzos-3.jpg" width="500" height="500">
+            <img class="img-beginnings" src="img/local/comienzos-1.jpg" alt="comienzos-1.jpg" width="500" height="500">
+            <img class="img-beginnings" src="img/local/comienzos-3.jpg" alt="comienzos-3.jpg" width="500" height="500">
         </section>
         <!--Final sección contacto-->
     </main>
@@ -64,10 +67,16 @@
                 <form action="#" method="POST">Dejanos tu email:
                     <label for="email">
                         <input size="10" type="text" name="email" value="">
-                        <br>
+                        
                         <input type="submit" value="Enviar">
                     </label>
                     <br>
+
+                    <!-- <label for="contraseña">
+                        <input size="10" type="password" name="contraseña" value="">
+                        <br>
+                        <input type="submit" value="Enviar">
+                    </label> -->
                     
                 </form>
             </section>
