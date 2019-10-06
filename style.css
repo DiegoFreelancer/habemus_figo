@@ -2,27 +2,43 @@ h1 {
     font-family: monospace, sans-serif;
     text-align: center;
     font-size: 40px;
+    font-weight: 700;
 }
 
 .header a {
     color: black;
     text-decoration: none;
+    /* list-style-type: none; */
+
+}
+
+.header li {
+    opacity: 0.7;
+    color: black;
+    /* text-decoration: none; */
+    list-style-type: none;
 }
 
 h2 {
     font-family: monospace, sans-serif;
+    text-transform: capitalize;
 }
 
 .img-food, .img-employeers, .img-beginnings {
     border-color: black;
-    border-width: 4px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 10%;
     /* padding: 10px; */
     margin: 5px;
+    -webkit-box-shadow: 5px 5px 13px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 13px rgba(0,0,0,1);
+    box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
-/* práctica de css con Variables 
+/* práctica de variables con
+###################################
+## Declaración de variables CSS ###
 
 :root {
     --gray-background-color: gray;
@@ -44,6 +60,10 @@ body {
 .img-beginnings-container {
     margin: 0px 0px 0px 20px;
     padding: 0px 0px 0px 20px;
+}
+
+.comidas p {
+    line-height: 25px;
 }
 
 .footer {
