@@ -1,8 +1,13 @@
 h1 {
+    color: black;
     font-family: monospace, sans-serif;
-    text-align: center;
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
+}
+
+h1 span {
+    border: 4px dashed black;
 }
 
 h2 {

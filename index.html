@@ -13,7 +13,7 @@
 
     <!--Comienzo de la cabecera-->
     <header class="header" id="#header">
-        <h1>¡Bienvenidos a Habemus Figo!</h1>
+        <h1><span>¡Bienvenidos a Habemus Figo!</span></h1>
         <div id="menu">
             <nav>
                 <ul>
@@ -35,12 +35,13 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed efficitur ligula, quis mattis tortor. Ut efficitur iaculis ipsum vitae sagittis. Vestibulum cursus dui sed massa hendrerit consequat. Duis congue pretium quam, non porttitor eros efficitur id. Aenean in sapien volutpat, tempus sapien eget, euismod magna. Vivamus dignissim diam non eros commodo scelerisque. Nullam viverra, sem sollicitudin mollis consectetur, mi orci facilisis elit, ac pellentesque arcu ante at lectus. Aenean pretium erat ac euismod consectetur. Phasellus suscipit tincidunt vehicula. Proin semper dignissim nisi, at blandit magna vehicula in. 
             </p>
             <div class="img-food-container">
-                <img class="img-food" src="img/foods/empanadas.jpg" alt="empanadas.jpg" width="300">
-                <img class="img-food" src="img/foods/pizzas-cebollas.jpg" alt="pizzas-con-cebollas.jpg" width="300" height="300">
-                <img class="img-food" src="img/foods/comida-1.jpg" alt="comida-1.jpg" width="300" height="300">
-                <img class="img-food" src="img/foods/comida-2.jpg" alt="comida-2.jpg" width="300">
-                <img class="img-food" src="img/foods/comida-3.jpg" alt="comida-3.jpg" width="300">
-                <img class="img-food" src="img/foods/comida-4.jpg" alt="comida-4.jpg" width="300">
+                <img class="img-food" src="img/foods/empanadas.jpg" alt="empanadas.jpg" width="300" title="empanadas.jpg">
+                <img class="img-food" src="img/foods/pizzas-cebollas.jpg" alt="pizzas-con-cebollas.jpg" title="pizzas-con-cebollas.jpg" width="300" height="300">
+                <img class="img-food" src="img/foods/pollo-a-la-cazadora.jpg" alt="pollo-a-la-cazadora.jpg" title="pollo-a-la-cazadora.jpg" width="300" height="300">
+                <img class="img-food" src="img/foods/patys-caseros.jpg" alt="patys-caseros.jpg" title="patys-caseros.jpg" width="300">
+                <img class="img-food" src="img/foods/wok-de-arroz-yamani.jpg" alt="wok-de-arroz-yamani.jpg" title="wok-de-arroz-yamani.jpg" width="300">
+                <img class="img-food" src="img/foods/locro.jpg" alt="locro.jpg" title="locro.jpg" width="300">
+                
             </div>
         </section>
         <!--Final sección comidas-->
@@ -74,35 +75,25 @@
             <!--Comienzo sección contacto-->
             <section id="contact" class="contacto">
                 <h3>¿Quieres ponerte en contacto con nosotros?</h3>
-                <form action="#" method="POST">Dejanos tu email:
-                    <label for="email">
-                        <input size="10" type="text" name="email" required placeholder="por ej: roberto@gmail.com">
-                        
+                <form action="" method="">
+                    <label for="correo">Dejanos tu email:
+                        <input type="email" name="correo" id="correo" required placeholder="por ej: roberto@gmail.com" maxlength="30" size="20">
                         <input type="submit" value="Enviar"><br>
                     </label>
-                    <label for="tipo-de-comida">
-                        <input type="radio" name="tipo-de-comida">Asado<br>
-                        <!-- <input type="text"> -->
+                    <br>
+                    
+                    <label for="mensaje">Dejanos tu mensaje
+                        <textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea>
                     </label>
-                    <label for="tipo-de-comida">
-                        <input type="radio" name="tipo-de-comida">Ravioles<br>
-                    </label>
-                    <label for="tipo-de-comida">
-                        <input type="radio" name="tipo-de-comida" checked>Empanadas<br>
-                    </label>
+                    <br>
 
-                    <h3>Elige las bebidas que quieres tomar</h3>
-                    <label for="bebida">
-                        <input type="checkbox" name="bebida">Brahma<br>
+                    <label for="pais">¿De qué país eres?
+                        <select name="pais" id="pais">
+                            <option value="argentina">Argentina</option>
+                            <option value="peru">Perú</option>
+                            <option value="chile">Chile</option>
+                        </select>
                     </label>
-                    <label for="bebida">
-                        <input type="checkbox" name="bebida" checked>Quilmes<br>
-                    </label>
-                    <label for="bebida">
-                        <input type="checkbox" name="bebida" checked>Patagonia<br>
-                    </label>
-                    
-                    
                 </form>
             </section>
             <!--Final sección contacto-->
@@ -110,7 +101,7 @@
     <aside></aside>
 
     <footer class="footer">
-        Habemus Figo - Derechos reservados 2015-2019
+        Habemus Figo - Derechos reservados 2015-2019 &copy;
     </footer>
 
     
