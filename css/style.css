@@ -104,6 +104,10 @@ body {
     padding: 0px 0px 0px 50px;
 }
 
+.img-beginnings-container {
+    padding-left: 20px;
+}
+
 p {
     line-height: 25px;
 }
