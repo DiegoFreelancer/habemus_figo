@@ -109,3 +109,24 @@ p {
 iframe {
     display: block;
 }
+
+@media (max-width: 360px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .img-food, .mapa-habemus, .img-employeers, .img-beginnings {
+        height: 300px;
+        width: 280px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+      } */
+      
+}
