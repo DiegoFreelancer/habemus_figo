@@ -1,22 +1,13 @@
 h1 {
-    color: black;
     font-family: monospace, sans-serif;
+    text-align: center;
     font-size: 40px;
     font-weight: 700;
-    text-align: center;
-}
-
-h1 span {
-    border: 4px dashed black;
 }
 
 h2 {
     position: relative;
     top: 13px;
-}
-
-.contact h2 {
-    width: auto;
 }
 
 .header a {
@@ -26,12 +17,12 @@ h2 {
 }
 
 a:hover {
-    color: #E43633;
+    color: red;
 }
 
 .header li {
-    color: black;
     opacity: 0.7;
+    color: black;
     /* text-decoration: none; */
     list-style-type: none;
 }
@@ -51,29 +42,32 @@ h2 {
 }
 
 h2:hover {
-    padding: 0px 0px 0px 50px;
     transform: scale(1.1);
+    padding: 0px 0px 0px 50px;
 }
 
 img:hover {
     transform: scale(1.05);
 }
 
-.mapa-habemus {
-    border-radius: 15px;
-    display: block;
-}
+/* #employeers img {
+    float: left;
+    width: 40%;
+    
+} */
 
-/* efecto de las imagenes (bordeado, sombras, etc) */
-.img-food, .img-employeers, .img-beginnings, .mapa-habemus {
+
+.img-food, .img-employeers, .img-beginnings {
     border-color: black;
     border-width: 3px;
     border-style: solid;
     border-radius: 10%;
+    /* padding: 10px; */
     margin: 5px;
     -webkit-box-shadow: 5px 5px 13px rgba(0,0,0,1);
     -moz-box-shadow: 5px 5px 13px rgba(0,0,0,1);
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
+    /* margin: auto; */
 }
 
 /* práctica de variables con
@@ -90,52 +84,23 @@ img:hover {
 
 
 body {
-    background-color: #f6e58d;
+    background: url("img/background/background.png")
 }
 
-.pading-and-margin {
+.img-food-container {
     margin: 0px 0px 0px 20px;
     padding: 0px 0px 0px 50px;
 }
 
 .img-beginnings-container {
-    padding-left: 20px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
 }
 
 p {
     line-height: 25px;
 }
 
-iframe {
-    display: block;
-}
-
 .footer {
     text-align: center;
-    margin-top: 40px;
-}
-
-iframe {
-    display: block;
-}
-
-@media (max-width: 360px) {
-
-    h1 {
-        font-size: 25px;
-    }
-
-    .img-food, .mapa-habemus, .img-employeers, .img-beginnings {
-        height: 300px;
-        width: 280px;
-        padding: 0px 0px 0px 0px;
-        margin: 0px 0px 0px 0px;
-    }
-
-    /* img {
-        max-width: 100%;
-        display: block;
-        height: auto;
-      } */
-      
 }
