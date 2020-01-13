@@ -17,12 +17,12 @@ h2 {
 }
 
 a:hover {
-    color: red;
+    color: #E43633;
 }
 
 .header li {
-    opacity: 0.7;
     color: black;
+    opacity: 0.7;
     /* text-decoration: none; */
     list-style-type: none;
 }
@@ -42,32 +42,29 @@ h2 {
 }
 
 h2:hover {
-    transform: scale(1.1);
     padding: 0px 0px 0px 50px;
+    transform: scale(1.1);
 }
 
 img:hover {
     transform: scale(1.05);
 }
 
-/* #employeers img {
-    float: left;
-    width: 40%;
-    
-} */
+.mapa-habemus {
+    border-radius: 15px;
+    display: block;
+}
 
-
-.img-food, .img-employeers, .img-beginnings {
+/* efecto de las imagenes (bordeado, sombras, etc) */
+.img-food, .img-employeers, .img-beginnings, .mapa-habemus {
     border-color: black;
     border-width: 3px;
     border-style: solid;
     border-radius: 10%;
-    /* padding: 10px; */
     margin: 5px;
     -webkit-box-shadow: 5px 5px 13px rgba(0,0,0,1);
     -moz-box-shadow: 5px 5px 13px rgba(0,0,0,1);
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
-    /* margin: auto; */
 }
 
 /* práctica de variables con
@@ -84,23 +81,52 @@ img:hover {
 
 
 body {
-    background: url("img/background/background.png")
+    background-color: #f6e58d;
 }
 
-.img-food-container {
+.pading-and-margin {
     margin: 0px 0px 0px 20px;
     padding: 0px 0px 0px 50px;
 }
 
 .img-beginnings-container {
-    margin: 0px 0px 0px 20px;
-    padding: 0px 0px 0px 20px;
+    padding-left: 20px;
 }
 
 p {
     line-height: 25px;
 }
 
+iframe {
+    display: block;
+}
+
 .footer {
     text-align: center;
+    margin-top: 40px;
+}
+
+iframe {
+    display: block;
+}
+
+@media (max-width: 360px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .img-food, .mapa-habemus, .img-employeers, .img-beginnings {
+        height: 300px;
+        width: 280px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+      } */
+      
 }
