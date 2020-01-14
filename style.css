@@ -67,19 +67,6 @@ img:hover {
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
-/* práctica de variables con
-###################################
-## Declaración de variables CSS ###
-
-:root {
-    --gray-background-color: gray;
-}
-
-.paragraph-beginnings, .paragraph-employeers {
-    background-color: var(--gray-background-color);
-} */
-
-
 body {
     background-color: #f6e58d;
 }
@@ -106,10 +93,6 @@ iframe {
     margin-top: 40px;
 }
 
-iframe {
-    display: block;
-}
-
 @media (max-width: 360px) {
 
     h1 {
@@ -122,11 +105,4 @@ iframe {
         padding: 0px 0px 0px 0px;
         margin: 0px 0px 0px 0px;
     }
-
-    /* img {
-        max-width: 100%;
-        display: block;
-        height: auto;
-      } */
-      
 }
