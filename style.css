@@ -1,3 +1,8 @@
+body {
+    background-image: url(img/fondo/wheat.png);
+    color: aliceblue;
+}
+
 h1 {
     font-family: monospace, sans-serif;
     text-align: center;
@@ -93,6 +98,8 @@ iframe {
     margin-top: 40px;
 }
 
+
+/* Para dispositivos de máximo de 360px de ancho */
 @media (max-width: 360px) {
 
     h1 {
@@ -104,5 +111,14 @@ iframe {
         width: 280px;
         padding: 0px 0px 0px 0px;
         margin: 0px 0px 0px 0px;
+    }
+
+    p {
+        width: 90vw;
+    }
+
+    .img-food-container {
+        margin: 0px 20px 0px 0px;
+        padding: 0px 20px 0px 0px;
     }
 }
