@@ -1,13 +1,13 @@
 body {
-    background-color: #F4EE89;
+    background-image: url(img/fondo/wheat.png);
+    color: aliceblue;
 }
 
 h1 {
-    color: black;
     font-family: monospace, sans-serif;
+    text-align: center;
     font-size: 40px;
     font-weight: 700;
-    text-align: center;
 }
 
 h2 {
@@ -51,6 +51,7 @@ img:hover {
     display: block;
 }
 
+/* efecto de las imagenes (bordeado, sombras, etc) */
 .img-food, .img-employeers, .img-beginnings, .mapa-habemus {
     border-color: black;
     border-width: 3px;
@@ -62,6 +63,9 @@ img:hover {
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
+body {
+    background-color: #f6e58d;
+}
 
 .pading-and-margin {
     margin: 0px 0px 0px 20px;
@@ -76,15 +80,17 @@ p {
     line-height: 25px;
 }
 
+iframe {
+    display: block;
+}
+
 .footer {
     text-align: center;
     margin-top: 40px;
 }
 
-iframe {
-    display: block;
-}
 
+/* Para dispositivos de máximo de 360px de ancho */
 @media (max-width: 360px) {
 
     h1 {
@@ -98,10 +104,12 @@ iframe {
         margin: 0px 0px 0px 0px;
     }
 
-    /* img {
-        max-width: 100%;
-        display: block;
-        height: auto;
-      } */
-      
+    p {
+        width: 90vw;
+    }
+
+    .img-food-container {
+        margin: 0px 20px 0px 0px;
+        padding: 0px 20px 0px 0px;
+    }
 }
