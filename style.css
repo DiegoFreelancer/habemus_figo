@@ -1,3 +1,7 @@
+body {
+    background-color: #F4EE89;
+}
+
 h1 {
     color: black;
     font-family: monospace, sans-serif;
@@ -6,30 +10,22 @@ h1 {
     text-align: center;
 }
 
-h1 span {
-    border: 4px dashed black;
-}
-
 h2 {
     position: relative;
     top: 13px;
+    font-family: monospace, sans-serif;
+    text-transform: capitalize;
 }
 
 .header a {
     color: black;
     text-decoration: none;
     /* list-style-type: none; */
+    opacity: 0.7;
 }
 
 a:hover {
     color: #E43633;
-}
-
-.header li {
-    color: black;
-    opacity: 0.7;
-    /* text-decoration: none; */
-    list-style-type: none;
 }
 
 /* descomentar sticky y top en caso de usar la etiqueta sticky.
@@ -40,11 +36,6 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     /* top: 0; */
     right: 40px;
 } 
-
-h2 {
-    font-family: monospace, sans-serif;
-    text-transform: capitalize;
-}
 
 h2:hover {
     padding: 0px 0px 0px 50px;
@@ -71,22 +62,6 @@ img:hover {
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
-/* práctica de variables con
-###################################
-## Declaración de variables CSS ###
-
-:root {
-    --gray-background-color: gray;
-}
-
-.paragraph-beginnings, .paragraph-employeers {
-    background-color: var(--gray-background-color);
-} */
-
-
-body {
-    background-color: #f6e58d;
-}
 
 .pading-and-margin {
     margin: 0px 0px 0px 20px;
