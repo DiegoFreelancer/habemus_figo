@@ -1,6 +1,6 @@
 body {
     background-image: url(img/background/background.png);
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 
 h1 {
@@ -27,9 +27,10 @@ a:hover {
 
 .header li {
     color: black;
-    opacity: 0.7;
+    opacity: 1;
     /* text-decoration: none; */
     list-style-type: none;
+    font-size: 20px;
 }
 
 /* descomentar sticky y top en caso de usar la etiqueta sticky.
