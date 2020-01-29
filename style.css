@@ -1,6 +1,6 @@
 body {
-    background-image: url(img/background/background.png);
-    /* color: aliceblue; */
+    background-image: url(img/fondo/wheat.png);
+    color: aliceblue;
 }
 
 h1 {
@@ -13,24 +13,19 @@ h1 {
 h2 {
     position: relative;
     top: 13px;
+    font-family: monospace, sans-serif;
+    text-transform: capitalize;
 }
 
 .header a {
-    color: black;
+    color: aliceblue;
     text-decoration: none;
     /* list-style-type: none; */
+    /* opacity: 0.7; */
 }
 
 a:hover {
     color: #E43633;
-}
-
-.header li {
-    color: black;
-    opacity: 1;
-    /* text-decoration: none; */
-    list-style-type: none;
-    font-size: 20px;
 }
 
 /* descomentar sticky y top en caso de usar la etiqueta sticky.
@@ -41,11 +36,6 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     /* top: 0; */
     right: 40px;
 } 
-
-h2 {
-    font-family: monospace, sans-serif;
-    text-transform: capitalize;
-}
 
 h2:hover {
     padding: 0px 0px 0px 50px;
@@ -88,6 +78,7 @@ body {
 
 p {
     line-height: 25px;
+    font-size: 20px;
 }
 
 iframe {
@@ -100,7 +91,7 @@ iframe {
 }
 
 
-/* Para dispositivos de máximo de 360px de ancho */
+/* Para dispositivos de máximo 360px de ancho */
 @media (max-width: 360px) {
 
     h1 {
@@ -115,7 +106,8 @@ iframe {
     }
 
     p {
-        width: 90vw;
+        width: 65vw;
+        font-size: 15px;
     }
 
     .img-food-container {
