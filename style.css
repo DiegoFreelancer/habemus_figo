@@ -42,9 +42,9 @@ h2:hover {
     transform: scale(1.1);
 }
 
-img:hover {
+/* img:hover {
     transform: scale(1.05);
-}
+} */
 
 .mapa-habemus {
     border-radius: 15px;
@@ -79,6 +79,7 @@ body {
 p {
     line-height: 25px;
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 iframe {
@@ -88,6 +89,7 @@ iframe {
 .footer {
     text-align: center;
     margin-top: 40px;
+    font-family: monospace, sans-serif;
 }
 
 
