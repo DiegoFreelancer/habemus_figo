@@ -37,11 +37,6 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     right: 40px;
 } 
 
-h2:hover {
-    padding: 0px 0px 0px 50px;
-    transform: scale(1.1);
-}
-
 /* img:hover {
     transform: scale(1.05);
 } */
