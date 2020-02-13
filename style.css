@@ -1,6 +1,6 @@
 body {
-    background-image: url(img/fondo/wheat.png);
-    color: aliceblue;
+    background-color: #EDE057;
+    color: #000;
 }
 
 h1 {
@@ -15,10 +15,11 @@ h2 {
     top: 13px;
     font-family: monospace, sans-serif;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .header a {
-    color: aliceblue;
+    color: #000;
     text-decoration: none;
     /* list-style-type: none; */
     /* opacity: 0.7; */
@@ -46,6 +47,22 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     display: block;
 }
 
+/* .mapa-habemus {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+} */
+
+.black-rounded-border {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10%;
+    -webkit-box-shadow: 5px 5px 13px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 13px rgba(0,0,0,1);
+    box-shadow: 5px 5px 13px rgba(0,0,0,1);
+}
+
 /* efecto de las imagenes (bordeado, sombras, etc) */
 .img-food, .img-employeers, .img-beginnings, .mapa-habemus {
     border-color: black;
@@ -56,6 +73,12 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     -webkit-box-shadow: 5px 5px 13px rgba(0,0,0,1);
     -moz-box-shadow: 5px 5px 13px rgba(0,0,0,1);
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
+}
+
+.employeers-container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
 }
 
 body {
