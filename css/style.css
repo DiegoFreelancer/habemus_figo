@@ -1,6 +1,6 @@
 body {
     background-color: #EDE057;
-    color: #000;
+    /* color: #000; */
 }
 
 h1 {
@@ -18,23 +18,33 @@ h2 {
     text-align: center;
 }
 
-.header a {
-    color: #000;
+
+/* .barra-navegacion a {
     text-decoration: none;
+    position: relative;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    background-color: #000;
+    color: aliceblue;
+    display: inline-block;
+    display: flex;
 }
+
+.barra-navegacion ul {
+    display: flex;
+    align-self: stretch;
+    list-style: none;
+} */
 
 a:hover {
     color: #E43633;
+    /* background: #E3DB45; */
+    background-color: #E3DB45;
+
 }
 
-/* descomentar sticky y top en caso de usar la etiqueta sticky.
-Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */ 
-#menu {
-    /* position: sticky; */
-    position: relative;
-    /* top: 0; */
-    right: 40px;
-} 
+
+
 
 .mapa-habemus {
 	border-radius: 15px;
@@ -51,6 +61,10 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     -webkit-box-shadow: 5px 5px 13px rgba(0,0,0,1);
     -moz-box-shadow: 5px 5px 13px rgb(10, 9, 9);
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
+}
+
+.padding-left {
+    padding-left: 12px
 }
 
 .img-local-container {
@@ -73,14 +87,12 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
 	padding: 0% 0%;
 }
 
+/* separación de la pared hacia la derecha */
 .img-food-container {
     padding-left: 2%;
 }
 
-/* .img-beginnings-container {
-    padding-left: 3%;
-} */
-
+/* propiedades para los parrafos del sitio web */
 p {
     line-height: 25px;
     font-size: 20px;
@@ -99,8 +111,8 @@ p {
 }
 
 
-/******************************************************************************** 
-******************Para dispositivos de máximo 360px de ancho *******************/
+/************************************************************************************** 
+******************Querys para dispositivos de máximo 360px de ancho *******************/
 @media (max-width: 360px) {
 
     h1 {
