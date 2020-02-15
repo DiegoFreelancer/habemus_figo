@@ -21,8 +21,6 @@ h2 {
 .header a {
     color: #000;
     text-decoration: none;
-    /* list-style-type: none; */
-    /* opacity: 0.7; */
 }
 
 a:hover {
@@ -38,20 +36,12 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     right: 40px;
 } 
 
-/* img:hover {
-    transform: scale(1.05);
-} */
-
 .mapa-habemus {
-    border-radius: 15px;
-    display: block;
+	border-radius: 15px;
+	display: block;
+    margin: 3% 10%;
+    width: 80%;
 }
-
-/* .mapa-habemus {
-    margin: 0 auto;
-    width: 90%;
-    max-width: 1000px;
-} */
 
 .black-rounded-border {
     border-color: black;
@@ -59,40 +49,37 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     border-style: solid;
     border-radius: 10%;
     -webkit-box-shadow: 5px 5px 13px rgba(0,0,0,1);
-    -moz-box-shadow: 5px 5px 13px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 13px rgb(10, 9, 9);
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
-/* efecto de las imagenes (bordeado, sombras, etc) */
-.img-food, .img-employeers, .img-beginnings, .mapa-habemus {
-    border-color: black;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 10%;
-    margin: 5px;
-    -webkit-box-shadow: 5px 5px 13px rgba(0,0,0,1);
-    -moz-box-shadow: 5px 5px 13px rgba(0,0,0,1);
-    box-shadow: 5px 5px 13px rgba(0,0,0,1);
-}
-
-.employeers-container {
-    margin: 0 auto;
-    width: 90%;
-    max-width: 1200px;
-}
-
-body {
-    background-color: #f6e58d;
-}
-
-.pading-and-margin {
-    margin: 0px 0px 0px 20px;
-    padding: 0px 0px 0px 50px;
+.img-local-container {
+    padding-left: 12px;
 }
 
 .img-beginnings-container {
-    padding-left: 20px;
+    display: inline;
+    padding-left: 30px;
+    margin: 0% 2px;
 }
+
+/* .img-comienzo-1 {
+    margin: 0% 10px
+} */
+
+/* mini separación de las imagenes entre si */
+.pading-margin-food {
+	margin: 1% 1%;
+	padding: 0% 0%;
+}
+
+.img-food-container {
+    padding-left: 2%;
+}
+
+/* .img-beginnings-container {
+    padding-left: 3%;
+} */
 
 p {
     line-height: 25px;
@@ -100,8 +87,9 @@ p {
     font-family: sans-serif;
 }
 
-iframe {
-    display: block;
+
+.mini-separacion {
+    margin: 20px 20px;
 }
 
 .footer {
@@ -111,7 +99,8 @@ iframe {
 }
 
 
-/* Para dispositivos de máximo 360px de ancho */
+/******************************************************************************** 
+******************Para dispositivos de máximo 360px de ancho *******************/
 @media (max-width: 360px) {
 
     h1 {
