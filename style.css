@@ -53,6 +53,10 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
+.padding-left {
+    padding-left: 12px
+}
+
 .img-local-container {
     padding-left: 12px;
 }
@@ -73,14 +77,12 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
 	padding: 0% 0%;
 }
 
+/* separación de la pared hacia la derecha */
 .img-food-container {
     padding-left: 2%;
 }
 
-/* .img-beginnings-container {
-    padding-left: 3%;
-} */
-
+/* propiedades para los parrafos del sitio web */
 p {
     line-height: 25px;
     font-size: 20px;
@@ -99,8 +101,8 @@ p {
 }
 
 
-/******************************************************************************** 
-******************Para dispositivos de máximo 360px de ancho *******************/
+/************************************************************************************** 
+******************Querys para dispositivos de máximo 360px de ancho *******************/
 @media (max-width: 360px) {
 
     h1 {
