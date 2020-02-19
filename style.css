@@ -61,6 +61,13 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     padding-left: 12px;
 }
 
+/* Contenedor para probar así lograr un contenedor responsive
+    .container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1200px;
+} */
+
 .img-beginnings-container {
     display: inline;
     padding-left: 30px;
