@@ -81,6 +81,16 @@ h2 {
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
+<<<<<<< HEAD:css/style.css
+=======
+.padding-left {
+    padding-left: 12px
+}
+
+.img-local-container {
+    padding-left: 12px;
+}
+>>>>>>> a173c3b55d68bc234dd935f0b58a35bfa5c98f38:style.css
 
 .img-local-container, .img-beginnings-container {
     padding-left: 12px;
