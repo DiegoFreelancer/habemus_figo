@@ -15,7 +15,7 @@ h1 {
     font-family: monospace, sans-serif;
     font-size: 40px;
     font-weight: 700;
-    margin: 20px;
+    margin: 25px;
     text-align: center;
 }
 
@@ -32,6 +32,7 @@ h2 {
 }
 
 .navbar ul {
+    padding: 15px;
     text-align: center;
     
 }
@@ -41,16 +42,20 @@ h2 {
     text-align: center;
     text-decoration: none;
     color: white;
-    padding: 10px 10px;
-    margin: 10px 0px;
+    padding: 15px 10px;
+    margin: 50px 15px;
 }
 
 .navbar li a:hover {
-    color: #E43633;
-    background-color: black;
-    width: 50px;
-    height: 50px;
+    /* color: #E43633; */
+    background-color: green;
+    /* width: 50px;
+    height: 50px; */
+}
 
+.navbar {
+    height: 50px;
+    background-color: black;
 }
 
 
