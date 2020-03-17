@@ -1,13 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
 body {
     background-color: #EDE057;
-    color: #000;
+    /* color: #000; */
 }
 
 h1 {
     font-family: monospace, sans-serif;
-    text-align: center;
     font-size: 40px;
     font-weight: 700;
+    margin: 25px;
+    text-align: center;
 }
 
 h2 {
@@ -18,30 +27,49 @@ h2 {
     text-align: center;
 }
 
-.header a {
-    color: #000;
+.navbar li {
+    display: inline-block;
+}
+
+.navbar ul {
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.navbar li a {
+    
+    text-align: center;
     text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    margin: 50px 15px;
 }
 
-a:hover {
-    color: #E43633;
+.navbar li a:hover {
+    /* color: #E43633; */
+    background-color: green;
+    /* width: 50px;
+    height: 50px; */
 }
 
-/* descomentar sticky y top en caso de usar la etiqueta sticky.
-Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */ 
-#menu {
-    /* position: sticky; */
-    position: relative;
-    /* top: 0; */
-    right: 40px;
-} 
-
-.mapa-habemus {
-	border-radius: 15px;
-	display: block;
-    margin: 3% 10%;
-    width: 80%;
+.navbar {
+    height: 49px;
+    background-color: black;
 }
+
+.margin-20px {
+    margin: 20px;
+}
+
+/* .comidas h2 {
+    margin: 20px;
+} */
+
+.comidas p {
+    text-align: center;
+}
+
 
 .black-rounded-border {
     border-color: black;
@@ -53,6 +81,7 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
+<<<<<<< HEAD:style.css
 .padding-left {
     padding-left: 12px
 }
@@ -72,21 +101,21 @@ Comentar relative y right en caso de descomentar las 2 etiquetas anteriores  */
     display: inline;
     padding-left: 30px;
     margin: 0% 2px;
-}
+=======
 
-/* .img-comienzo-1 {
-    margin: 0% 10px
-} */
+.img-local-container, .img-beginnings-container {
+    padding-left: 12px;
+>>>>>>> navbar:css/style.css
+}
 
 /* mini separación de las imagenes entre si */
 .pading-margin-food {
-	margin: 1% 1%;
-	padding: 0% 0%;
+    margin: 1% 1%;
 }
 
 /* separación de la pared hacia la derecha */
 .img-food-container {
-    padding-left: 2%;
+    padding-left: 6%;
 }
 
 /* propiedades para los parrafos del sitio web */
@@ -94,9 +123,10 @@ p {
     line-height: 25px;
     font-size: 20px;
     font-family: sans-serif;
+    text-align: center;
 }
 
-
+/* clase para aplicar a sección local y comienzos */
 .mini-separacion {
     margin: 20px 20px;
 }
@@ -107,6 +137,13 @@ p {
     font-family: monospace, sans-serif;
 }
 
+/* clase para definir propiedades del mapa a mostrar */
+.mapa-habemus {
+    border-radius: 15px;
+    display: block;
+    margin: 3% 10%;
+    width: 80%;
+}
 
 /************************************************************************************** 
 ******************Querys para dispositivos de máximo 360px de ancho *******************/
