@@ -81,31 +81,9 @@ h2 {
     box-shadow: 5px 5px 13px rgba(0,0,0,1);
 }
 
-<<<<<<< HEAD:style.css
-.padding-left {
-    padding-left: 12px
-}
-
-.img-local-container {
-    padding-left: 12px;
-}
-
-/* Contenedor para probar así lograr un contenedor responsive
-    .container {
-	margin: 0 auto;
-	width: 90%;
-	max-width: 1200px;
-} */
-
-.img-beginnings-container {
-    display: inline;
-    padding-left: 30px;
-    margin: 0% 2px;
-=======
 
 .img-local-container, .img-beginnings-container {
     padding-left: 12px;
->>>>>>> navbar:css/style.css
 }
 
 /* mini separación de las imagenes entre si */
