@@ -3,4 +3,4 @@ Sitio web en proceso de Habemus Figo, local gastrónomico de comida italiana en 
 
 Visitalo por aquí: https://diegofreelancer.github.io/habemus_figo/ (Cualquier feedback es bienvenido)
 
-Made by @DiegoDev
+Made by @DiegoTux
